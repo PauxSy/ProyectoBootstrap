@@ -1,0 +1,64 @@
+body {
+    background-image: url("/assets/img/wallpaper_plano.jpg");
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    /* margin:em 0 0 0; */
+}
+
+.cabecera {
+    margin:0 0 1em 0;
+}
+
+.cabecera a {
+    font-weight: bold;
+    padding:0 0 0 0;       /* top right bottom left */
+    margin:0 1em;     /* ejeY  ejeX  */
+    position: relative;
+    text-decoration: none;
+}
+
+.cabecera a:hover {
+    color:rgb(211, 211, 205);
+}
+
+.contenido {
+    background-color: rgba(255,255,255,0.6);
+    padding:1em 0 0 0;
+}
+
+.a-fotito {
+    color:black;
+    bottom:2.5em;
+}
+
+.fotito {
+    border: black 1px solid;
+    background-color: white;
+    padding:0.5em 0.5em 1.4em 0.5em;
+}
+
+.logo {
+    width: 8em;
+    margin:0 3em 0 0;  /* top right bottom left */
+}
+
+
+.nombre {
+    position: relative;
+    top:-0.3em;
+    left:-5.4em;
+    
+}
+
+.subtitulo {
+    color: gray;
+    text-decoration: underline;
+}
+
+.tecnologias {
+    color:azure;
+    margin-top: 4em;
+}
