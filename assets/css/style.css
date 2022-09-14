@@ -1,21 +1,13 @@
 body {
-    background-image: url("/ProyectoBootstrap/ProyectoBootstrap/assets/img/wallpaper_plano.jpg");
+    background-image: url("/assets/img/wallpaper_plano.jpg");
     background-attachment: fixed;
     text-align: center;
 }
 
-h1 {
-    /* margin:em 0 0 0; */
-}
-
-.cabecera {
-    margin:0 0 1em 0;
-}
-
 .cabecera a {
     font-weight: bold;
-    padding:0 0 0 0;       /* top right bottom left */
-    margin:0 1em;     /* ejeY  ejeX  */
+    padding:0 0 0 0;     
+    margin:0 2em;   
     position: relative;
     text-decoration: none;
 }
